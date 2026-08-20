@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 
 app = Flask(__name__)
 IST = ZoneInfo("Asia/Kolkata")
-YAHOO_URL = "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI"
+YAHOO_URL = "https://query2.finance.yahoo.com/v8/finance/chart/%5ENSEI"
 NSE_HOME = "https://www.nseindia.com/"
 NSE_OC_PAGE = "https://www.nseindia.com/option-chain"
 NSE_OC_API = "https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY"
